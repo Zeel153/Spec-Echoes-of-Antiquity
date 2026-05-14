@@ -4,7 +4,7 @@ A curated digital museum exhibition exploring the civilizations of ancient Egypt
 Greece, and Rome. Built using plain HTML, CSS, and JavaScript as part of a
 spec-driven AI-orchestrated development process.
 
-**Live site:** [GitHub Pages link — add after deployment]
+**Live site:** https://zeel153.github.io/Spec-Echoes-of-Antiquity/index.html
 
 ---
 
