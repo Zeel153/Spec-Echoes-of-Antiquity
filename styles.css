@@ -307,6 +307,32 @@ section {
     linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
     url("https://upload.wikimedia.org/wikipedia/commons/d/de/Colosseo_2020.jpg");
 }
+
+/* EXTRA GREECE IMAGES */
+.socrates-img {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
+    url("https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg");
+}
+
+.amphora-img {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
+    url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Amphora_MET_DP105902.jpg");
+}
+
+/* EXTRA ROME IMAGES */
+.caesar-img {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
+    url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Julius_Caesar_Vatican_Museum.jpg");
+}
+
+.aqueduct-img {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
+    url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Pont_du_Gard_BLS.jpg");
+}
 /* WING HERO */
 .wing-hero {
   background: var(--color-primary);
