@@ -262,31 +262,31 @@ section {
 .egypt-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-    url("images/egpty.avif");
+    url("https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1200&q=80");
 }
 
 .greece-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
-    url("images/greece.avif");
+    url("https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?auto=format&fit=crop&w=1200&q=80");
 }
 
 .rome-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.18), rgba(0,0,0,0.18)),
-    url("images/rome.avif");
+    url("https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80");
 }
 
 .rosetta-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
-    url("images/rosetta.jpeg");
+    url("https://upload.wikimedia.org/wikipedia/commons/2/23/Rosetta_Stone.JPG");
 }
 
 .parthenon-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
-    url("images/parthenon.jpg");
+    url("https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg");
 }
 
 .colosseum-img {
