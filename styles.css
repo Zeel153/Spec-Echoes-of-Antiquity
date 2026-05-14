@@ -293,7 +293,7 @@ section {
 .book-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
-    url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Bookofthedead-1.jpg");
+    url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f4e?auto=format&fit=crop&w=1200&q=80");
 }
 
 .parthenon-img {
@@ -318,20 +318,20 @@ section {
 .amphora-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
-    url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Amphora_MET_DP105902.jpg");
+    url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1200&q=80");
 }
 
 /* EXTRA ROME IMAGES */
 .caesar-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
-    url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Julius_Caesar_Vatican_Museum.jpg");
+    url("https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80");
 }
 
 .aqueduct-img {
   background-image:
     linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
-    url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Pont_du_Gard_BLS.jpg");
+    url("https://images.unsplash.com/photo-1525874684015-58379d421a52?auto=format&fit=crop&w=1200&q=80");
 }
 /* WING HERO */
 .wing-hero {
