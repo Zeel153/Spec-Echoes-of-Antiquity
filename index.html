@@ -1,27 +1,24 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Echoes of Antiquity — A Museum of Ancient Civilizations</title>
-  <meta name="description" content="A curated digital exhibition exploring the civilizations of Egypt, Greece, and Rome." />
+  <meta name="description" content="A curated digital exhibition exploring Egypt, Greece, and Rome." />
 
-  <!-- Google Fonts — Bauhaus type system -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
 
-  <!-- ============================================================
-       NAVIGATION
-       ============================================================ -->
-  <nav class="site-nav" aria-label="Main navigation">
+<body>
+  <nav class="site-nav">
     <div class="container nav-inner">
       <a href="index.html" class="nav-logo">Echoes of Antiquity</a>
-      <ul class="nav-links" role="list">
+      <ul class="nav-links">
         <li><a href="egypt.html">Egypt</a></li>
         <li><a href="greece.html">Greece</a></li>
         <li><a href="rome.html">Rome</a></li>
@@ -31,152 +28,118 @@
     </div>
   </nav>
 
-  <!-- ============================================================
-       HERO
-       ============================================================ -->
   <header class="hero">
     <div class="container hero-inner">
+      <p class="eyebrow">A Digital Museum Experience</p>
       <h1 class="hero-headline">Three Civilizations.<br>One Human Story.</h1>
       <p class="hero-subhead">
-        A curated exhibition tracing the arc of Egypt, Greece, and Rome —
-        the civilizations whose ideas, art, and governance still shape the world we inhabit.
+        A curated exhibition tracing Egypt, Greece, and Rome — civilizations whose ideas,
+        art, architecture, government, and beliefs still shape the modern world.
       </p>
       <a href="egypt.html" class="btn-primary">Enter the Exhibition</a>
     </div>
   </header>
 
   <main>
-
-    <!-- ============================================================
-         EXHIBITION INTRODUCTION
-         ============================================================ -->
     <section class="section-intro">
       <div class="container prose-block">
         <h2 class="section-heading">About This Exhibition</h2>
         <p>
-          The ancient world did not end. It transformed. The legal codes that govern
-          modern democracies, the philosophical frameworks through which we understand
-          reason and ethics, the architectural proportions we still consider beautiful —
-          these are inheritances from civilizations that flourished thousands of years
-          before our own. This exhibition does not treat the ancient world as a relic.
-          It treats it as a foundation.
+          The ancient world did not disappear. It became part of the foundation of modern life.
+          Our laws, buildings, writing systems, political ideas, and artistic traditions still
+          carry echoes from earlier civilizations.
         </p>
         <p>
-          Echoes of Antiquity presents three civilizations — Egypt, Greece, and Rome —
-          not as isolated chapters, but as a single, unfolding human conversation.
-          Each wing has been curated to reveal the internal logic of a civilization:
-          what it believed, what it built, what it left behind, and why it endures.
+          Echoes of Antiquity presents Egypt, Greece, and Rome as connected museum wings.
+          Each wing introduces a civilization through its beliefs, artifacts, achievements,
+          and long-term influence.
         </p>
         <p>
-          The artifacts presented here are drawn from the collections of the British Museum,
-          the Egyptian Museum in Cairo, the National Archaeological Museum of Athens,
-          and the Vatican Museums. Each selection has been made for its capacity to
-          illuminate a civilizational idea, not merely to impress.
+          This museum uses a Bauhaus-inspired design system, the Sage brand archetype,
+          and the persuasion principle of authority to create a clear, educational,
+          and visually organized experience.
         </p>
       </div>
     </section>
 
-    <hr />
-
-    <!-- ============================================================
-         WING NAVIGATION CARDS
-         ============================================================ -->
     <section class="section-wings">
       <div class="container">
         <h2 class="section-heading">The Exhibition Wings</h2>
-        <div class="wing-grid">
 
+        <div class="wing-grid">
           <article class="wing-card">
-            <div class="wing-card-image" role="img" aria-label="Ancient Egyptian artifacts"></div>
+            <div class="wing-card-image egypt-img"></div>
             <div class="wing-card-body">
               <p class="wing-card-label">Wing A</p>
               <h3 class="wing-card-title">Egypt</h3>
-              <p class="wing-card-dates">circa 3100 BCE – 30 BCE</p>
+              <p class="wing-card-dates">c. 3100 BCE – 30 BCE</p>
               <p class="wing-card-desc">
-                The civilization that measured eternity in stone. Discover the
-                hieroglyphs, gods, and monuments of the ancient Nile.
+                A civilization built around the Nile, eternity, divine kingship,
+                monumental architecture, and the afterlife.
               </p>
               <a href="egypt.html" class="btn-secondary">Enter Wing</a>
             </div>
           </article>
 
           <article class="wing-card">
-            <div class="wing-card-image" role="img" aria-label="Ancient Greek artifacts"></div>
+            <div class="wing-card-image greece-img"></div>
             <div class="wing-card-body">
               <p class="wing-card-label">Wing B</p>
               <h3 class="wing-card-title">Greece</h3>
-              <p class="wing-card-dates">circa 800 BCE – 146 BCE</p>
+              <p class="wing-card-dates">c. 800 BCE – 146 BCE</p>
               <p class="wing-card-desc">
-                Where reason first questioned the gods. Encounter the philosophy,
-                democracy, and art that defined Western thought.
+                A culture of philosophy, democracy, theater, mythology,
+                and artistic ideals that shaped Western thought.
               </p>
               <a href="greece.html" class="btn-secondary">Enter Wing</a>
             </div>
           </article>
 
           <article class="wing-card">
-            <div class="wing-card-image" role="img" aria-label="Ancient Roman artifacts"></div>
+            <div class="wing-card-image rome-img"></div>
             <div class="wing-card-body">
               <p class="wing-card-label">Wing C</p>
               <h3 class="wing-card-title">Rome</h3>
-              <p class="wing-card-dates">circa 753 BCE – 476 CE</p>
+              <p class="wing-card-dates">c. 753 BCE – 476 CE</p>
               <p class="wing-card-desc">
-                The empire that became the template for civilization. Explore
-                the law, engineering, and governance that still echoes today.
+                An empire of law, engineering, roads, military power,
+                public architecture, and political legacy.
               </p>
               <a href="rome.html" class="btn-secondary">Enter Wing</a>
             </div>
           </article>
-
         </div>
       </div>
     </section>
 
-    <hr />
-
-    <!-- ============================================================
-         CURATOR'S NOTE — AUTHORITY SIGNAL
-         ============================================================ -->
     <section class="section-curator">
       <div class="container">
         <blockquote class="curator-note">
           <p>
-            This exhibition was assembled in accordance with the curatorial standards
-            of major international institutions of ancient history. Every artifact
-            presented here is documented, every claim is sourced, and every narrative
-            is grounded in scholarly consensus. Our obligation to the visitor is accuracy
-            before spectacle, and understanding before wonder.
+            This exhibition is built around authority, clarity, and research.
+            Each page is designed to guide visitors through history instead of simply
+            listing facts.
           </p>
-          <footer>
-            <cite>— The Curatorial Team, Echoes of Antiquity</cite>
-          </footer>
+          <footer>— Curatorial Statement</footer>
         </blockquote>
       </div>
     </section>
-
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <p class="footer-name">Echoes of Antiquity</p>
-      <nav aria-label="Footer navigation">
-        <ul class="footer-links" role="list">
-          <li><a href="egypt.html">Egypt</a></li>
-          <li><a href="greece.html">Greece</a></li>
-          <li><a href="rome.html">Rome</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
+      <ul class="footer-links">
+        <li><a href="egypt.html">Egypt</a></li>
+        <li><a href="greece.html">Greece</a></li>
+        <li><a href="rome.html">Rome</a></li>
+        <li><a href="artifact.html">Object Study</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
       <p class="footer-disclaimer">
-        This is an educational digital exhibition. Artifact descriptions are based
-        on publicly documented scholarly sources. All referenced collections remain
-        the property of their respective holding institutions.
+        Educational digital museum project created for a course assignment.
       </p>
     </div>
   </footer>
-
 </body>
 </html>
